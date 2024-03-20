@@ -2,7 +2,7 @@
 In this first project of 42 Cursus, our mission is to revamp a bunch of libc functions, just like the ones you find in their manual pages. The revamped functions should have the exact same prototypes and behaviors as the original ones. We’re talking about clones here! So, when someone uses your ft_strlen, they should get the same results and behavior as if they had used the original strlen.
 
 # List of Functions
-### Funtions from <ctype.h>
+### Functions from <ctype.h>
 
 | **Function** |                   **Description**                  |
 |:------------:|----------------------------------------------------|
