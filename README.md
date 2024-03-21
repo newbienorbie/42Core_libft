@@ -6,32 +6,32 @@ In this first project of 42 Cursus, our mission is to revamp a bunch of libc fun
 
 | **Function** |                   **Description**                  |
 |:------------:|----------------------------------------------------|
-| [ft_isalpha](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isalpha.c)   | Checks for an alphabetic character                 |
-| [ft_isdigit](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isdigit.c)   | Checks for a digit (0 through 9)                   |
-| [ft_isalnum](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isalnum.c)   | Checks for an alphanumeric character               |
-| [ft_isascii](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isascii.c)   | Checks whether c fits into the ASCII character set |
-| [ft_isprint](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isprint.c)   | Checks for any printable character                 |
-| [ft_toupper](https://github.com/newbienorbie/42Core_libft/blob/main/ft_toupper.c)   | Converts characters to uppercase                   |
-| [ft_tolower](https://github.com/newbienorbie/42Core_libft/blob/main/ft_tolower.c)   | Converts characters to lowercase                   |
+| [ft_isalpha](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isalpha.c)   | Checks if the given character is an alphabetic character                 |
+| [ft_isdigit](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isdigit.c)   | Checks if the given character is a digit                   |
+| [ft_isalnum](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isalnum.c)   | Checks if the given character is an alphanumeric character (a-z, A-Z, or 0-9)               |
+| [ft_isascii](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isascii.c)   | Checks if the given character is a valid ASCII character (0-127) |
+| [ft_isprint](https://github.com/newbienorbie/42Core_libft/blob/main/ft_isprint.c)   | Checks if the given character is a printable character (ASCII 32-126)                 |
+| [ft_toupper](https://github.com/newbienorbie/42Core_libft/blob/main/ft_toupper.c)   | Converts a lowercase letter to its corresponding uppercase letter                   |
+| [ft_tolower](https://github.com/newbienorbie/42Core_libft/blob/main/ft_tolower.c)   | Converts an uppercase letter to its corresponding lowercase letter                   |
 
 ### Functions from <string.h>
 
 | **Function** |                      **Description**                      |
 |:------------:|-----------------------------------------------------------|
-| [ft_strlen](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strlen.c)    | Calculates the length of a string                         |
-| [ft_memset](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memset.c)    | Fills memory with a constant byte                         |
-| [ft_bzero](https://github.com/newbienorbie/42Core_libft/blob/main/ft_bzero.c)    | Makes a string as zero byte                               |
-| [ft_memcpy](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memcpy.c)    | Copies memory area                                        |
-| [ft_memmove](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memmove.c)   | Copies memory area by handling overlapping memory address |
-| [ft_strlcpy](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strlcpy.c)   | Copies string to a specific size                          |
-| [ft_strlcat](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strlcat.c)   | Concatenates a string to a specific size                  |
-| [ft_strchr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strchr.c)    | Locates character in a string                             |
-| [ft_strrchr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strrchr.c)   | Locates character in a string                             |
-| [ft_strncmp](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strncmp.c)   | Compares two strings                                      |
-| [ft_memchr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memchr.c)    | Scans memory for a character                              |
-| [ft_memcmp](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memcmp.c)    | Compares memory areas                                     |
-| [ft_strnstr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strnstr.c)   | Locates a substring in a string                           |
-| [ft_strdup](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strdup.c)    | Creates a duplicate for the string passed as a parameter  |
+| [ft_strlen](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strlen.c)    | Calculates the length of the string, excluding the null terminator                         |
+| [ft_memset](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memset.c)    | Fills the memory block pointed to by 'b' with the value 'c', for a length of 'len' bytes                         |
+| [ft_bzero](https://github.com/newbienorbie/42Core_libft/blob/main/ft_bzero.c)    | Sets the first 'n' bytes of the memory block pointed to by 's' to zero                               |
+| [ft_memcpy](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memcpy.c)    | Copies 'n' bytes from the memory block pointed to by 'src' to the memory block pointed to by 'dst'                                        |
+| [ft_memmove](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memmove.c)   | Copies 'len' bytes from the memory block pointed to by 'src' to the memory block pointed to by 'dst', handling overlapping memory blocks correctly |
+| [ft_strlcpy](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strlcpy.c)   | Copies up to 'dstsize - 1' characters from the string 'src' to the string 'dst', ensuring null-termination of 'dst'                          |
+| [ft_strlcat](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strlcat.c)   | Concatenates the string 'src' onto the end of 'dst', ensuring that the total length does not exceed 'dstsize - 1' characters, and null-terminates 'dst'                 |
+| [ft_strchr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strchr.c)    | Locates the first occurrence of character in the string                            |
+| [ft_strrchr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strrchr.c)   | Locates the last occurrence of character in the string                             |
+| [ft_strncmp](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strncmp.c)   | Compares at most 'n' characters of two strings and returns an integer based on their relative order                                      |
+| [ft_memchr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memchr.c)    | Locates the first occurrence of character 'c' in the memory block pointed to by 's' within the first 'n' bytes                              |
+| [ft_memcmp](https://github.com/newbienorbie/42Core_libft/blob/main/ft_memcmp.c)    | Compares the first 'n' bytes of the memory blocks pointed to by 's1' and 's2'                                     |
+| [ft_strnstr](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strnstr.c)   |  Locates the first occurrence of the string 'needle' in the string 'haystack', searching up to 'len' characters,                           |
+| [ft_strdup](https://github.com/newbienorbie/42Core_libft/blob/main/ft_strdup.c)    | Allocates memory for a duplicate of the string 's1'  |
 
 ### Functions from <stdlib.h>
 
